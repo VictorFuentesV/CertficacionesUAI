@@ -1,0 +1,119 @@
+/* General styles */
+.certificates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+}
+.certificate a {
+  color: #000; 
+  text-decoration: none;
+}
+
+.certificates-grid {
+  display: flex; /* Changed from grid to flex */
+  flex-direction: column; /* Added to arrange items from top to bottom */
+  gap: 20px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.certificate {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.certificate {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.certificate a {
+  transition: color 0.2s ease;
+}
+.certificate {
+  border-radius: 4px;
+}
+.certificates-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.certificates-container {
+  transition: background-color 0.2s ease;
+}
+.certificate {
+  background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+.certificate {
+  transition: background 0.2s ease;
+}
+.certificate {
+  border-bottom: 1px solid #ccc;
+}
+.certificate {
+  transition: border-bottom 0.2s ease;
+}
+.certificates-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Responsive styles */
+
+/* Smartphone */
+@media (max-width: 767px) {
+  .certificates-container {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .certificates-grid {
+    gap: 10px;
+  }
+
+  .certificate {
+    padding: 8px 16px;
+    height: auto;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .certificates-container {
+    padding: 15px;
+    width: 85%;
+  }
+
+  .certificates-grid {
+    gap: 15px;
+  }
+
+  .certificate {
+    padding: 10px 20px;
+    height: auto;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .certificates-container {
+    padding: 20px;
+    width: 80%;
+  }
+
+  .certificates-grid {
+    gap: 20px;
+  }
+
+  .certificate {
+    padding: 10px 20px;
+    height: auto;
+  }
+}

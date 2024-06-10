@@ -1,0 +1,85 @@
+/* Estilos generales */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  transition: color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 80px;
+  padding: 0 10px;
+  width: max-content;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background-color: #034574;
+  border-radius: 10px;
+  padding: 4px 4px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+/* Estilos responsivos */
+
+/* Smartphone */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topnav ul,
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    line-height: 40px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar {
+    padding: 15px;
+  }
+
+  .nav-link {
+    line-height: 60px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-link {
+    padding: 0 15px;
+  }
+}

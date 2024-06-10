@@ -1,0 +1,74 @@
+/* Estilos para escritorio */
+@media only screen and (min-width: 1024px) {
+    .login-container {
+      width: 40%;
+      margin: 0 auto;
+    }
+  
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container button {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    .login-container button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .login-container button:hover {
+      background-color: #0056b3;
+    }
+  
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+      transition: border-color 0.3s ease;
+    }
+  
+    .login-container input[type="text"]:focus,
+    .login-container input[type="password"]:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+  
+    .login-container .signup-link {
+      text-align: center;
+    }
+  }
+  
+  /* Estilos para tablet */
+  @media only screen and (max-width: 1023px) {
+    .login-container {
+      width: 60%;
+      margin: 0 auto;
+    }
+  
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container button {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para smartphone */
+  @media only screen and (max-width: 767px) {
+    .login-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .login-container input[type="text"],
+    .login-container input[type="password"],
+    .login-container button {
+      font-size: 12px;
+    }
+  }
+  

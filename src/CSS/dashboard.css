@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el gráfico de barras */
+  #chartCertificadosPorCarrera,
+  #chartPorcentajeCertificados,
+  #chartTendenciaCertificados {
+    width: 100%;
+    margin-bottom: 20px; /* Agrega espacio entre los gráficos */
+  }
+  
+  /* Estilos para dispositivos de pantalla pequeña */
+  @media (max-width: 1024px) {
+    #chartPorcentajeCertificados,
+    #chartTendenciaCertificados {
+      width: 100%; /* Los gráficos ocupan el 100% del ancho */
+      display: block; /* Los gráficos se muestran uno debajo del otro */
+    }
+  }
+  
+  /* Estilos para desktops */
+  @media (min-width: 1025px) {
+    #chartPorcentajeCertificados,
+    #chartTendenciaCertificados {
+      width: calc(50% - 10px); /* Ancho del 50% para los gráficos */
+      display: inline-block; /* Los gráficos se muestran en línea */
+    }
+  
+    #chartTendenciaCertificados {
+      margin-left: 20px; /* Agrega un margen a la derecha del segundo gráfico */
+    }
+  }
+  

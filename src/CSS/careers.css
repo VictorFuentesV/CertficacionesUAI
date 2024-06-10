@@ -1,0 +1,150 @@
+/* Estilos generales */
+.careers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px;
+  height: 100vh;
+}
+
+.career-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.career-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.career-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.career-item a {
+  font-size: 24px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.career-item:nth-child(1)::before {
+  background-image: url('../pictures/Industrial.jpg');
+}
+
+.career-item:nth-child(2)::before {
+  background-image: url('../pictures/Informática.jpg');
+}
+
+.career-item:nth-child(3)::before {
+  background-image: url('../pictures/Minería.jpg');
+}
+
+.career-item:nth-child(4)::before {
+  background-image: url('../pictures/Mecanica.jpg');
+}
+
+.career-item:nth-child(5)::before {
+  background-image: url('../pictures/Energía.jpg');
+}
+
+.career-item:nth-child(6)::before {
+  background-image: url('../pictures/Obras Civiles.jpg');
+}
+
+.career-item:nth-child(7)::before {
+  background-image: url('../pictures/Bioingeniería.jpg');
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilos responsivos */
+
+/* Smartphone */
+@media (max-width: 767px) {
+  .careers-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .career-item a {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 24px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .careers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 25px;
+  }
+
+  .career-item a {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 28px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .careers-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .career-item a {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 32px;
+  }
+}

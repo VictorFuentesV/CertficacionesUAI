@@ -1,0 +1,13 @@
+pipelines:
+  branches:
+   main:
+    - step: 
+        name: Deploy to test
+        deployment: test
+        script:
+          - chown -R 165536:165536 $BITBUCKET_CLONE_DIR
+          - pipe: microsoft/azure-static-web-apps-deploy:main
+            variables:
+                APP_LOCATION: /app
+                OUTPUT_LOCATION: '$BITBUCKET_CLONE_DIR/build'
+                API_TOKEN: $deployment_token

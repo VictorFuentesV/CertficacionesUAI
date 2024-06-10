@@ -1,0 +1,76 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+ 
+  "dependencies": {
+    "@auth0/auth0-react": "^1.12.1",
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@supabase/auth-helpers-react": "^0.5.0",
+    "@supabase/supabase-js": "^2.43.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "auth0-js": "^9.24.1",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.7.0",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "express-jwt": "^6.1.0",
+    "express-openid-connect": "^2.17.1",
+    "i18next": "^23.10.1",
+    "jwks-rsa": "^2.1.5",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1",
+    "pdfjs-dist": "^4.1.392",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.0",
+    "react-icons": "^5.1.0",
+    "react-json-pretty": "^2.2.0",
+    "react-pdf": "^7.7.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.2.2",
+    "stream-browserify": "^3.0.0",
+    "styled-components": "^6.1.8",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "options": {
+    "allowedHosts": ["localhost", ".localhost"],
+    "proxy": "https://localhost:3386/"
+  }
+}

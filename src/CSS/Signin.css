@@ -1,0 +1,55 @@
+/* Estilos para escritorio */
+@media only screen and (min-width: 1024px) {
+    .signup-container {
+      width: 40%;
+      margin: 0 auto;
+    }
+  
+    .signup-container input,
+    .signup-container button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 16px;
+    }
+  
+    .signup-container button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .signup-container button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+  
+  /* Estilos para tablet */
+  @media only screen and (max-width: 1023px) {
+    .signup-container {
+      width: 60%;
+      margin: 0 auto;
+    }
+  
+    .signup-container input,
+    .signup-container button {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos para smartphone */
+  @media only screen and (max-width: 767px) {
+    .signup-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .signup-container input,
+    .signup-container button {
+      font-size: 12px;
+    }
+  }
+  

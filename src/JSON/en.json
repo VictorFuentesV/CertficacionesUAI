@@ -1,0 +1,73 @@
+{
+    "navbar": {
+      "home": "Home",
+      "certificates": "Certificates",
+      "myCertificates": "My Certificates",
+      "logOut": "Log Out",
+      "logIn": "Log In",
+      "account": "Profile",
+      "stats": "Dashboards",
+      "admin": "Validation"
+
+    },
+    "hero": {
+      "title": "UAI Certification Portal"
+    },
+    "home": {
+      "title": "Certifications information",
+      "content": "Here you can find certificates for your specialty and upload your own certifications."
+    },
+    "Footer":{
+      "content": "All rights reserved ©; 2024 UAI"
+    },
+    "Certificates":{
+      "title": "Certificates"
+    },
+    "Profile":{
+      "title": "User Form",
+      "name": "Name",
+      "nickname": "Nickname",
+      "role": "Role",
+      "career": "Career",
+      "save": "Save",
+      "stats": "See Statistics"      
+    },
+    "Upload":{
+      "title": "Upload your Certifications",
+      "form": "Title",
+      "upload": "Upload",
+      "uploaded": "Uploaded Certifications",
+      "show": "Show Certifications"
+    },
+    "careers": {
+      "title": "Careers",
+      "careerNames": {
+        "0": "Industrial Engineering",
+        "1": "Computer Engineering",
+        "2": "Mining Engineering",
+        "3": "Mechanical Engineering",
+        "4": "Energy Engineering",
+        "5": "Civil Engineering",
+        "6": "Bioengineering"
+      }
+    },
+    "button":{
+      "language": "Language",
+      "spanish": "Spanish",
+      "english": "English"
+    },
+    "form": {
+      "name": "Name",
+      "lastname": "Last Name",
+      "selectCareer": "Select a career",
+      "loading": "Loading...",
+      "createProfile": "Create Profile"
+    },
+    "profile": {
+      "title": "User Profile",
+      "email": "Email",
+      "name": "Name",
+      "lastname": "Last Name",
+      "career": "Career"
+    }
+  }

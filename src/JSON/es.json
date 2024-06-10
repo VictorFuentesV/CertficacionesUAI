@@ -1,0 +1,73 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "certificates": "Certificados",
+      "myCertificates": "Mis Certificados",
+      "logOut": "Cerrar Sesión",
+      "logIn": "Iniciar Sesión",
+      "account": "Perfil",
+      "stats": "Estadísticas",
+      "admin": "Validación"
+    },
+    "hero": {
+      "title": "Portal de Certificaciones UAI"
+    },
+    "home": {
+      "title": "Información Certificaciones",
+      "content": "Aquí podrás encontrar certificados para tu especialidad y subir tus propias certificaciones."
+    },
+    "Footer":{
+      "content": "Todos los derechos reservados ©; 2024 UAI"
+    },
+    "Certificates":{
+      "title": "Certificaciones"
+    },
+    "Profile":{
+      "title": "Formulario Usuario",
+      "name": "Nombre",
+      "nickname": "Apodo",
+      "role": "Rol",
+      "career": "Carrera",
+      "save": "Guardar",
+      "stats": "Ver estadisticas"
+    },
+    "Upload":{
+      "title": "Sube tus certificados",
+      "form": "Titulo",
+      "upload": "Subir",
+      "uploaded": "Certificaciones Subidas",
+      "show": "Mostrar Certificación"
+    },
+    "careers": {
+      "title": "Carreras",
+      "careerNames": {
+        "0": "Ing Industrial",
+        "1": "Ing Informática",
+        "2": "Ing en Minas",
+        "3": "Ing Mecánica",
+        "4": "Ing en Energía",
+        "5": "Ing en obras civiles",
+        "6": "Bioingeniería"
+      }
+    },
+    "button":{
+      "language": "Idioma",
+      "spanish": "Español",
+      "english": "Inglés"
+    },
+    "form": {
+      "name": "Nombre",
+      "lastname": "Apellido",
+      "selectCareer": "Selecciona una carrera",
+      "loading": "Cargando...",
+      "createProfile": "Crear perfil"
+    },
+    "profile": {
+      "title": "Perfil de usuario",
+      "email": "Correo electrónico",
+      "name": "Nombre",
+      "lastname": "Apellido",
+      "career": "Carrera"
+    }
+  
+  }
