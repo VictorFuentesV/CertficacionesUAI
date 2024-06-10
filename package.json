@@ -72,5 +72,7 @@
   "options": {
     "allowedHosts": ["localhost", ".localhost"],
     "proxy": "https://localhost:3386/"
-  }
+  },
+  "engines": { "node": ">=18.0.0" }
+  
 }
